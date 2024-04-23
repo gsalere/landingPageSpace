@@ -1,0 +1,49 @@
+body{
+    background-image: url("./backgroundLp.png") ;
+}
+
+.img{
+    width: 150px;
+    display: flex;
+    justify-content: end;
+    align-content: end;
+}
+
+.container{
+    background-color: #131212f1;
+    width: 450px;
+}
+
+.topLogo{
+    width: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.paragraph{
+    color: #fff;
+}
+
+@media(max-width:470px){
+    .paragraph{
+        font-size: 13px
+    }
+
+    .container{
+        width: 300px;
+    }
+
+    .topLogo{
+        width: 170px;
+    }
+}
+
+@media(max-width:340px){
+    .img{
+        width: 100px;
+    }
+
+    .topLogo{
+        width: 150px;
+    }
+}
